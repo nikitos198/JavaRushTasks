@@ -1,9 +1,5 @@
 package com.javarush.task.pro.task02.task0207;
 
-/* 
-Логотип решает все
-*/
-
 public class Solution {
 
     public static void main(String[] args) {

@@ -2,9 +2,6 @@ package com.javarush.task.pro.task03.task0310;
 
 import java.util.Scanner;
 
-/* 
-Через тернии...
-*/
 
 public class Solution {
     public static void main(String[] args) {

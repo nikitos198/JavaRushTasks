@@ -8,9 +8,9 @@ public class Solution {
 
         int max = Integer.MIN_VALUE;
         while (console.hasNextInt()) {
-            int x = console.nextInt();
-            if (x % 2 == 0 && x > max) {
-                max = x;
+            int number = console.nextInt();
+            if (number % 2 == 0 && number > max) {
+                max = number;
             }
         }
         System.out.println(max);

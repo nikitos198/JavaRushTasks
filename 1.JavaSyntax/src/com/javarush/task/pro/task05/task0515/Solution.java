@@ -2,7 +2,9 @@ package com.javarush.task.pro.task05.task0515;
 
 import java.util.Arrays;
 
-
+/*
+Сравнение двумерных массивов
+*/
 
 public class Solution {
 

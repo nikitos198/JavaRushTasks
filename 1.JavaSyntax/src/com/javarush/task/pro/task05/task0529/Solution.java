@@ -36,6 +36,13 @@ public class Solution {
             }
 
         }
+        for (int i = 0; i < height; i++) {
+            for (int j = 0; j < width; j++) {
+                if (bombs[i][j] == 1 && field[i][j].equals(robotank)){
+                    field[i][j] = hit;
+                }
+            }
+        }
         for (int i = 0; i < field.length; i++) {
             for (int j = 0; j < field[i].length; j++) {
                 System.out.print(field[i][j]);
